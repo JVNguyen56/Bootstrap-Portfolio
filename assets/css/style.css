@@ -20,6 +20,7 @@ h2,
 h3,
 p {
   margin-bottom: 20px;
+  padding-left: 20px;
 }
 p:last-child {
   margin-bottom: 0;
@@ -91,6 +92,7 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+  width: 100%;
 }
 /* sidebar */
 .sidebar {
@@ -121,6 +123,7 @@ h3,
 /* main */
 #main-container {
   padding-top: 130px;
+  
 }
 .main-section {
   float: left;
@@ -214,4 +217,6 @@ input[type=submit] {
   background: #4aaaa5;
   border-bottom: 0;
 }
-
+ body {
+  background: url("../images/concrete_seamless.png");
+ }
