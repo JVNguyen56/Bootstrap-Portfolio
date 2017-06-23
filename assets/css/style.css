@@ -93,6 +93,7 @@ footer {
   background: #666;
   border-top: 8px solid #4aaaa5;
   width: 100%;
+  margin-top: 20px;
 }
 /* sidebar */
 .sidebar {
@@ -217,6 +218,38 @@ input[type=submit] {
   background: #4aaaa5;
   border-bottom: 0;
 }
- body {
-  background: url("../images/concrete_seamless.png");
- }
+
+@media screen and (max-width: 980px) and (min-width: 580px) {
+    body {
+    
+    width: 980px;
+    background-image: url("../images/concrete-texture.png");
+    }
+    .sidebar {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 580px) {
+    body  {
+    
+    width: 768px;
+    background-image: url("../images/concrete-texture.png");
+    }
+   .sidebar {
+        margin: auto;
+           }
+}
+
+@media screen and (max-width: 640px) and (min-width: 580px) {
+    body  {
+    width: 640px;
+    background-image: url("../images/concrete-texture.png");
+    }
+    .sidebar {
+        margin: auto;
+        }
+    header {
+        position: static;
+    }
+}
